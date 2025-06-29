@@ -2,7 +2,7 @@ import React from "react";
 import { FiMenu } from "react-icons/fi";
 import { NavLink } from "react-router";
 import DarkToggle from "../DarkToggle/DarkToggle";
-import mirulLogo from "../../../public/mirul-logo.png"
+import mirulLogo from "../../assets/mirul-logo.png"
 
 const NavBar = () => {
   const myLinks = (
