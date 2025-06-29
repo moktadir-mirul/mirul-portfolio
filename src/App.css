@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+a.active {
+  padding-bottom: 5px;
+  border-bottom: 2px solid orange;
+}

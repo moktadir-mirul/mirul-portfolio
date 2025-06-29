@@ -17,7 +17,7 @@ const DarkToggle = () => {
       <div
         onClick={toggle}
         className={`relative w-12 h-6 flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
-          checked ? "bg-gray-700" : "bg-gray-300"
+          checked ? "bg-gray-500" : "bg-gray-300"
         }`}
       >
         {/* Toggle knob */}
@@ -28,7 +28,7 @@ const DarkToggle = () => {
         >
           {/* Icon inside the knob */}
           {checked ? (
-            <FaMoon className="text-gray-100 mx-auto my-auto" size={14} />
+            <FaMoon className="text-gray-900 mx-auto my-auto" size={14} />
           ) : (
             <FaSun className="text-yellow-500 mx-auto my-auto" size={14} />
           )}
