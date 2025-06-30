@@ -19,13 +19,13 @@ const Hero = () => {
   }, []);
   return (
     <div className="w-full dark:bg-gray-700">
-      <div className="w-11/12 mx-auto py-5 px-2 md:px-0 flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center text-black dark:text-gray-200">
-        <div className="flex-1 space-y-5">
+      <div className="w-11/12 mx-auto py-5 px-2 md:px-0 flex flex-col md:flex-row gap-5 md:gap-0 justify-start items-start md:justify-center md:items-center text-black dark:text-gray-200">
+        <div className="flex-1 space-y-7">
           <p className="text-xl">Hi ! I'm</p>
           <h1 className="text-3xl font-semibold play">
             <span className="text-orange-500">Mirul</span> Moktadir Khan.
           </h1>
-          <div className="text-5xl font-bold play flex gap-2">
+          <div className="text-5xl font-bold play flex flex-col lg:flex-row gap-2">
             <span className="text-orange-500">
               <TextTransition springConfig={presets.wobbly}>
                 {Words[index % Words.length]}

@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <div className="w-full dark:bg-gray-700">
       <div className="pt-10 pb-5 w-11/12 mx-auto text-gray-800 dark:text-gray-200">
-        <h1 className="md:border-l-4 pl-4 border-orange-500 text-center md:text-left text-4xl font-bold play text-orange-500">
+        <h1 className="md:border-l-4 pl-4 border-orange-500 text-center md:text-left text-6xl font-bold play text-orange-500">
           About Me
         </h1>
-        <div className="pt-5 text-lg space-y-2 text-justify">
+        <div className="pt-10 text-lg space-y-2 text-justify">
           <p>
             Hey there! I'm a passionate and curious full-stack web developer who
             started exploring the world of programming in 2024. My journey began

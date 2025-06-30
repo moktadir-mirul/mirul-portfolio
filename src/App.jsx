@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutMe from './Component/AboutMe/AboutMe'
+import Academic from './Component/Academic/Academic'
 import Hero from './Component/Hero/Hero'
 import NavBar from './Component/NavBar/NavBar'
 import Skills from './Component/Skills/Skills'
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section>
         <Skills></Skills>
+      </section>
+      <section>
+        <Academic></Academic>
       </section>
     </div>
   )
