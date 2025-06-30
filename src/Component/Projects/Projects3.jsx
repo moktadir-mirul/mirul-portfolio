@@ -1,14 +1,14 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import PlantI1 from "../../assets/pt-1.jpeg";
-import PlantI2 from "../../assets/pt-2.jpg";
-import PlantI3 from "../../assets/pt-3.jpg";
+import CC1 from "../../assets/cc-1.jpeg";
+import CC2 from "../../assets/cc-2.jpeg";
+import CC3 from "../../assets/cc-3.png";
 import Slider from "react-slick";
 import { Link } from "react-router";
 
-const Project2 = () => {
-  const plants = [PlantI1, PlantI2, PlantI3];
+const Projects3 = () => {
+  const cImages = [CC1, CC2, CC3];
   const settings = {
     dots: false,
     infinite: true,
@@ -25,7 +25,7 @@ const Project2 = () => {
       {/* Image Section */}
       <div className="rounded-md h-48 md:h-auto md:w-1/2 w-full">
         <Slider {...settings}>
-          {plants.map((src, index) => (
+          {cImages.map((src, index) => (
             <div key={index}>
               <img
                 src={src}
@@ -39,22 +39,20 @@ const Project2 = () => {
 
       {/* Content Section */}
       <div className="flex-1 mt-4 md:mt-0 text-gray-800 dark:text-gray-100 space-y-5">
-        <h2 className="text-3xl font-bold mb-2 text-green-700 dark:text-green-400 play">
-          Plant Companion
+        <h2 className="text-3xl font-bold mb-2 text-amber-700 dark:text-amber-400 play">
+          Career Compass
         </h2>
         <p className="text-sm leading-relaxed">
-          An Online Plant Care Tracker where users can add, edit, and manage
-          plants with details like health status and watering schedules. Some
-          routes are protected, and authentication is handled via Firebase. The
-          backend uses Node.js, Express.js, and MongoDB for secure data
-          management.
+          An online job portal where users can explore job listings, view
+          details, and apply directly. Some routes are protected and require
+          Firebase authentication via email/password or Google login.
         </p>
 
         {/* Features */}
         <ul className="mt-4 space-y-1 text-sm">
-          <li>→ Plant Management & Personalization</li>
-          <li>→ Smart Scheduling & Sorting</li>
-          <li>→ Authentication & Smooth Experience</li>
+          <li>→ Interactive Job Browsing & Application</li>
+          <li>→ Secure Authentication & Profile Management</li>
+          <li>→ Polished User Experience</li>
         </ul>
 
         {/* Tags */}
@@ -62,33 +60,33 @@ const Project2 = () => {
           <span className="px-2 py-1 bg-blue-100 text-blue-600 rounded dark:bg-blue-600 dark:text-white">
             React
           </span>
-          <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded dark:bg-gray-600 dark:text-white">
-            Express JS
-          </span>
-          <span className="px-2 py-1 bg-green-100 text-green-600 rounded dark:bg-green-600 dark:text-white">
-            Mongo DB
+          <span className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded dark:bg-yellow-600 dark:text-white">
+            Firebase
           </span>
           <span className="px-2 py-1 bg-cyan-100 text-cyan-700 rounded dark:bg-cyan-700 dark:text-white">
             Tailwind CSS
+          </span>
+          <span className="px-2 py-1 bg-pink-100 text-pink-700 rounded dark:bg-pink-700 dark:text-white">
+            Framer Motion
           </span>
         </div>
 
         {/* Buttons */}
         <div className="mt-4 flex flex-wrap gap-2">
-          <Link to={"https://plant-companion-tracker.web.app/"} target="_blank">
+          <Link to={"https://career-compassjobs.netlify.app/"} target="_blank">
             <button className="px-4 py-1 rounded bg-orange-500 text-white hover:bg-orange-700 transition cursor-pointer">
               Live
             </button>
           </Link>
           <Link
-            to={"https://github.com/moktadir-mirul/plant-companion-client"}
+            to={"https://github.com/moktadir-mirul/career-compass"}
             target="_blank"
           >
             <button className="px-4 py-1 rounded border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition cursor-pointer">
               GitHub
             </button>
           </Link>
-          <Link to={"/plant-companion"}>
+          <Link to={"/career-compass"}>
             <button className="px-4 py-1 rounded border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition cursor-pointer">
               Details
             </button>
@@ -99,4 +97,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2;
+export default Projects3;

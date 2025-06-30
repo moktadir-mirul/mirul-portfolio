@@ -8,9 +8,9 @@ const NavBar = () => {
   const myLinks = (
     <div className="flex gap-5 merri font-bold">
       <NavLink>Home</NavLink>
-      <NavLink>About Me</NavLink>
-      <NavLink>Projects</NavLink>
-      <NavLink>Contact Me</NavLink>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact Me</a>
     </div>
   );
   return (

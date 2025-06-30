@@ -8,6 +8,7 @@ import RoyalImg4 from "../../assets/royal-6.png";
 import Slider from "react-slick";
 import { Link } from "react-router";
 import Project2 from "./Project2";
+import Projects3 from "./Projects3";
 
 const Projects = () => {
   const RoyalImg = [RoyalImg1, RoyalImg2, RoyalImg3, RoyalImg4];
@@ -20,7 +21,7 @@ const Projects = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    fade: true, // Optional: use fade transition
+    fade: true,
   };
   return (
     <div className="w-full dark:bg-gray-700">
@@ -47,7 +48,7 @@ const Projects = () => {
 
             {/* Content Section */}
             <div className="flex-1 mt-4 md:mt-0 text-gray-800 dark:text-gray-100 space-y-5">
-              <h2 className="text-2xl font-bold mb-2 play">
+              <h2 className="text-3xl font-bold mb-2 play text-orange-500">
                 Royal Bites Restaurant
               </h2>
               <p className="text-sm leading-relaxed">
@@ -58,7 +59,7 @@ const Projects = () => {
 
               {/* Features */}
               <ul className="mt-4 space-y-1 text-sm">
-                <li>→ Dynamic Food Management & Ordering1</li>
+                <li>→ Dynamic Food Management & Ordering</li>
                 <li>→ Secure & Smooth User Experience</li>
                 <li>→ Easy Search & Responsive Design</li>
               </ul>
@@ -106,11 +107,13 @@ const Projects = () => {
             </div>
           </div>
 
-{/* Project 2 */}
-<div className="pt-10">
-    <Project2></Project2>
-</div>
-
+          {/* Project 2 */}
+          <div className="pt-10">
+            <Project2></Project2>
+          </div>
+          <div className="pt-10">
+            <Projects3></Projects3>
+          </div>
         </div>
       </div>
     </div>
