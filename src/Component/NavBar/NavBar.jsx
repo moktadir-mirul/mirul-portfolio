@@ -6,7 +6,7 @@ import mirulLogo from "../../assets/mirul-logo.png"
 
 const NavBar = () => {
   const myLinks = (
-    <div className="flex gap-5">
+    <div className="flex gap-5 merri font-bold">
       <NavLink>Home</NavLink>
       <NavLink>About Me</NavLink>
       <NavLink>Projects</NavLink>
