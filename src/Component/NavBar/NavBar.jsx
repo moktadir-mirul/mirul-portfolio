@@ -40,7 +40,9 @@ const NavBar = () => {
           <div>
             <DarkToggle></DarkToggle>
           </div>
-          <a className="btn">Button</a>
+          <div>
+            <button className="px-7 py-2 rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer">Resume</button>
+          </div>
         </div>
       </div>
     </div>
