@@ -1,12 +1,27 @@
-# React + Vite
+# 💼 Mirul's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website – [mirul-portfolio.netlify.app](https://mirul-portfolio.netlify.app).  
+I'm **Mirul Moktadir Khan**, a passionate **Full Stack Web Developer** focused on building clean, modern, and responsive web applications using **React**, **Node.js**, **Express**, **MongoDB**, and **Firebase**.
 
-Currently, two official plugins are available:
+![Screenshot](https://via.placeholder.com/1200x600?text=Portfolio+Screenshot) <!-- Replace with actual screenshot URL if you have one -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 Fully responsive and optimized for all devices
+- 🌗 Light and dark mode support
+- 🔥 Built with modern tech stack: React + Tailwind CSS
+- 📁 Projects section showcasing real-world applications
+- 📞 Contact section with availability and contact info
+- 🧠 Skills, academic background, and more!
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Animations**: Framer Motion, React Icons
+- **Deployment**: Netlify
+
+---

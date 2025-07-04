@@ -1,13 +1,13 @@
 import React from "react";
 import { FiMenu } from "react-icons/fi";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import DarkToggle from "../DarkToggle/DarkToggle";
 import mirulLogo from "../../assets/mirul-logo.png"
 
 const NavBar = () => {
   const myLinks = (
     <div className="flex gap-5 merri font-bold">
-      <NavLink>Home</NavLink>
+      <Link>Home</Link>
       <a href="#about">About Me</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact Me</a>
