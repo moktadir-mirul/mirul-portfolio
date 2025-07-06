@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import mirulImg from "../../assets/portfolio-img.jpg";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFileDownload, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router";
 import { FaXTwitter } from "react-icons/fa6";
@@ -69,9 +69,11 @@ const Hero = () => {
             </Link>
           </div>
           <div>
-            <button className="px-10 py-4 text-xl rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer">
-              Resume
-            </button>
+            <a href="/resume-of-Mirul.pdf" download>
+              <button className="px-10 py-4 text-xl rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer flex items-center gap-2">
+                <FaFileDownload /> Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="flex-1 h-[450px] xl:h-auto flex justify-center items-center border-l-12 border-t-12 rounded-l-4xl rounded-t-4xl bg-orange-50 dark:bg-gray-900 border-orange-500 shadow-2xl dark:shadow-md shadow-orange-500 p-5">

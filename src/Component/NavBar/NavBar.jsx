@@ -2,7 +2,8 @@ import React from "react";
 import { FiMenu } from "react-icons/fi";
 import { Link, NavLink } from "react-router";
 import DarkToggle from "../DarkToggle/DarkToggle";
-import mirulLogo from "../../assets/mirul-logo.png"
+import mirulLogo from "../../assets/mirul-logo.png";
+import { FaFileDownload } from "react-icons/fa";
 
 const NavBar = () => {
   const myLinks = (
@@ -33,7 +34,9 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 dark:text-gray-100">{myLinks}</ul>
+          <ul className="menu menu-horizontal px-1 dark:text-gray-100">
+            {myLinks}
+          </ul>
         </div>
 
         <div className="navbar-end flex gap-3">
@@ -41,7 +44,11 @@ const NavBar = () => {
             <DarkToggle></DarkToggle>
           </div>
           <div>
-            <button className="px-7 py-2 rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer">Resume</button>
+            <a href="/resume-of-Mirul.pdf" download>
+              <button className="px-7 py-2 rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer flex items-center gap-2">
+                <FaFileDownload /> Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
