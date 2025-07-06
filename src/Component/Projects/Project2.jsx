@@ -21,7 +21,7 @@ const Project2 = () => {
     fade: true,
   };
   return (
-    <div className="bg-white dark:bg-gray-700 border border-orange-500 rounded-xl shadow-md p-4 md:flex gap-4 md:items-center transition-all">
+    <div className="bg-white dark:bg-gray-900 border border-orange-500 rounded-xl shadow-md p-4 md:flex gap-4 md:items-center transition-all">
       {/* Image Section */}
       <div className="rounded-md h-48 md:h-auto md:w-1/2 w-full">
         <Slider {...settings}>

@@ -28,7 +28,7 @@ const Royal = () => {
   };
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-6">
-      <div className="max-w-6xl mx-auto bg-white dark:bg-gray-700 rounded-xl shadow-md border border-orange-500 overflow-hidden">
+      <div className="max-w-6xl mx-auto bg-white dark:bg-gray-900 rounded-xl shadow-md border border-orange-500 overflow-hidden">
         <div className="p-2 flex flex-col md:flex-row">
           {/* Slideshow Section */}
           <div className="md:w-1/2 w-full">

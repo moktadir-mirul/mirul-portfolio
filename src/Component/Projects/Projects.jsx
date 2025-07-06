@@ -24,13 +24,13 @@ const Projects = () => {
     fade: true,
   };
   return (
-    <div className="w-full dark:bg-gray-700">
+    <div className="w-full dark:bg-gray-900">
       <div className="w-11/12 pt-10 mx-auto">
         <h1 className="md:border-l-4 pl-4 border-orange-500 text-center md:text-left text-6xl font-bold play text-orange-500">
           Projects
         </h1>
         <div className="w-full pt-10">
-          <div className="bg-white dark:bg-gray-700 border border-orange-500 rounded-xl shadow-md p-4 md:flex gap-4 md:items-center transition-all">
+          <div className="bg-white dark:bg-gray-900 border border-orange-500 rounded-xl shadow-md p-4 md:flex gap-4 md:items-center transition-all">
             {/* Image Section */}
             <div className="rounded-md h-48 md:h-auto md:w-1/2 w-full">
               <Slider {...settings}>
@@ -75,7 +75,7 @@ const Projects = () => {
                 <span className="px-2 py-1 bg-green-100 text-green-600 rounded dark:bg-green-600 dark:text-white">
                   Mongo DB
                 </span>
-                <span className="px-2 py-1 bg-gray-700  rounded dark:bg-gray-600 text-white">
+                <span className="px-2 py-1 bg-gray-900  rounded dark:bg-gray-600 text-white">
                   JWT
                 </span>
               </div>

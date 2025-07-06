@@ -1,4 +1,5 @@
 
+import { ToastContainer } from 'react-toastify'
 import './App.css'
 import AboutMe from './Component/AboutMe/AboutMe'
 import Academic from './Component/Academic/Academic'
@@ -31,6 +32,7 @@ function App() {
       <section id='contact'>
         <ContactSection></ContactSection>
       </section>
+      <ToastContainer></ToastContainer>
     </div>
   )
 }

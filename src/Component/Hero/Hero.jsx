@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import mirulImg from "../../assets/mirul-image.jpg";
+import mirulImg from "../../assets/portfolio-img.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router";
@@ -18,7 +18,7 @@ const Hero = () => {
     return () => clearTimeout(interval);
   }, []);
   return (
-    <div className="w-full dark:bg-gray-700">
+    <div className="w-full dark:bg-gray-900">
       <div className="w-11/12 mx-auto py-5 px-2 md:px-0 flex flex-col md:flex-row gap-5 md:gap-0 justify-start items-start md:justify-center md:items-center text-black dark:text-gray-200">
         <div className="flex-1 space-y-7">
           <p className="text-xl">Hi ! I'm</p>
@@ -74,7 +74,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex-1 h-[450px] xl:h-auto flex justify-center items-center border-l-12 border-t-12 rounded-l-4xl rounded-t-4xl bg-orange-50 dark:bg-gray-700 border-orange-500 shadow-2xl dark:shadow-md shadow-orange-500 p-5">
+        <div className="flex-1 h-[450px] xl:h-auto flex justify-center items-center border-l-12 border-t-12 rounded-l-4xl rounded-t-4xl bg-orange-50 dark:bg-gray-900 border-orange-500 shadow-2xl dark:shadow-md shadow-orange-500 p-5">
           <img
             className="w-[90%] h-[95%] rounded-sm"
             src={mirulImg}

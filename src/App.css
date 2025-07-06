@@ -7,3 +7,6 @@ a.active {
   padding-bottom: 5px;
   border-bottom: 2px solid orange;
 }
+section[id] {
+  scroll-margin-top: 48px;
+}

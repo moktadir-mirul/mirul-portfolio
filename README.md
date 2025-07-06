@@ -3,7 +3,6 @@
 Welcome to my personal portfolio website – [mirul-portfolio.netlify.app](https://mirul-portfolio.netlify.app).  
 I'm **Mirul Moktadir Khan**, a passionate **Full Stack Web Developer** focused on building clean, modern, and responsive web applications using **React**, **Node.js**, **Express**, **MongoDB**, and **Firebase**.
 
-![Screenshot](https://via.placeholder.com/1200x600?text=Portfolio+Screenshot) <!-- Replace with actual screenshot URL if you have one -->
 
 ---
 

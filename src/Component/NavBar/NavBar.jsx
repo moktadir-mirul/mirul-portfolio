@@ -14,7 +14,7 @@ const NavBar = () => {
     </div>
   );
   return (
-    <div className="sticky top-0 z-50 bg-base-100 dark:bg-gray-700">
+    <div className="sticky top-0 z-50 bg-base-100 dark:bg-gray-800">
       <div className="navbar h-12 shadow-sm px-5 ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -23,7 +23,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow dark:text-gray-100"
             >
               {myLinks}
             </ul>
@@ -33,7 +33,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{myLinks}</ul>
+          <ul className="menu menu-horizontal px-1 dark:text-gray-100">{myLinks}</ul>
         </div>
 
         <div className="navbar-end flex gap-3">
