@@ -5,6 +5,13 @@ import App from './App.jsx'
 import ThemeProvider from './ThemeProvider/ThemeProvider.jsx'
 import { RouterProvider } from 'react-router'
 import { Router } from './Router/Router.jsx'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  delay: 0, 
+  duration: 1300,
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
