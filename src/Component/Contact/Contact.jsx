@@ -9,7 +9,7 @@ const ContactSection = () => {
     toast.error("Sorry! Mailing is not available right now. You can contact me through email or phone!")
   }
   return (
-    <div data-aos="flip-up" className="w-full dark:bg-gray-900 pt-10">
+    <div data-aos="flip-up" className="w-full overflow-auto dark:bg-gray-900 pt-10">
       <div className="w-11/12 mx-auto dark:bg-gray-900 text-gray-800 dark:text-gray-200 pb-10 px-6 rounded-xl">
         <h1 className="md:border-l-4 pl-4 border-orange-500 text-center md:text-left text-6xl font-bold play text-orange-500">
           Contact Me

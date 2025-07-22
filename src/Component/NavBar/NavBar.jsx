@@ -44,7 +44,7 @@ const NavBar = () => {
             <DarkToggle></DarkToggle>
           </div>
           <div>
-            <a href="/resume-of-Mirul.pdf" download>
+            <a href="/Mirul's Resume.pdf" download>
               <button className="px-7 py-2 rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer flex items-center gap-2">
                 <FaFileDownload /> Resume
               </button>
