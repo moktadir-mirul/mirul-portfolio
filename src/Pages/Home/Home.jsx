@@ -4,7 +4,7 @@ import { Outlet } from 'react-router';
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <NavBar></NavBar>
             <Outlet></Outlet>
         </div>

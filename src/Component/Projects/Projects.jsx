@@ -24,7 +24,7 @@ const Projects = () => {
     fade: true,
   };
   return (
-    <div data-aos="zoom-in-down" className="w-full dark:bg-gray-900">
+    <div data-aos="zoom-in-down" className="w-full overflow-hidden dark:bg-gray-900">
       <div className="w-11/12 pt-10 mx-auto">
         <h1 className="md:border-l-4 pl-4 border-orange-500 text-center md:text-left text-6xl font-bold play text-orange-500">
           Projects

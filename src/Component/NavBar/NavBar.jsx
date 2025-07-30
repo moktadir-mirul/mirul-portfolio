@@ -16,11 +16,11 @@ const NavBar = () => {
   );
   return (
     <div className="sticky top-0 z-50 bg-base-100 dark:bg-gray-800">
-      <div className="navbar h-12 shadow-sm px-5 ">
+      <div className="navbar w-full h-12 shadow-sm px-5 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <FiMenu></FiMenu>
+              <FiMenu className="dark:text-white" size={25}></FiMenu>
             </div>
             <ul
               tabIndex={0}
