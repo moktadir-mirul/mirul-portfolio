@@ -7,6 +7,7 @@ import ContactSection from './Component/Contact/Contact'
 import Hero from './Component/Hero/Hero'
 import Projects from './Component/Projects/Projects'
 import Skills from './Component/Skills/Skills'
+import Footer from './Component/Footer/Footer'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <section id='contact'>
         <ContactSection></ContactSection>
       </section>
+      <Footer></Footer>
       <ToastContainer></ToastContainer>
     </div>
   )
