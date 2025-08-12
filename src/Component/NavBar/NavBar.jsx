@@ -10,13 +10,14 @@ const NavBar = () => {
     <div className="flex gap-5 merri font-bold">
       <Link>Home</Link>
       <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact Me</a>
     </div>
   );
   return (
-    <div className="sticky top-0 z-50 bg-base-100 dark:bg-gray-800">
-      <div className="navbar w-full h-12 shadow-sm px-5 ">
+    <div className="sticky top-0 z-50  bg-base-100 dark:bg-gray-800">
+      <div className="navbar overflow-hidden h-12 shadow-sm px-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

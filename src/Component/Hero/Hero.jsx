@@ -6,7 +6,7 @@ import { Link } from "react-router";
 import { FaXTwitter } from "react-icons/fa6";
 import TextTransition, { presets } from "react-text-transition";
 
-const Words = ["Mern-Stack", "Full-Stack", "Front-End"];
+const Words = ["Mern-Stack Developer", "Full-Stack Developer", "Front-End Developer"];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);
@@ -26,12 +26,12 @@ const Hero = () => {
             <span className="text-orange-500">Mirul</span> Moktadir Khan.
           </h1>
           <div className="text-5xl font-bold play flex flex-col lg:flex-row gap-2">
-            <span className="text-orange-500">
+            <span className="text-orange-500 mb-2">
               <TextTransition springConfig={presets.wobbly}>
                 {Words[index % Words.length]}
               </TextTransition>
             </span>
-            <h1>Developer</h1>
+            
           </div>
           <div className="flex gap-3">
             <Link
@@ -69,7 +69,7 @@ const Hero = () => {
             </Link>
           </div>
           <div>
-            <a href="/resume-of-Mirul.pdf" download>
+            <a href="/Mirul's Resume.pdf" download>
               <button className="px-10 py-4 text-xl rounded-lg text-white font-bold bg-orange-500 hover:bg-orange-700 duration-200 cursor-pointer flex items-center gap-2">
                 <FaFileDownload /> Resume
               </button>

@@ -1,14 +1,16 @@
-import React from 'react';
-import NavBar from '../../Component/NavBar/NavBar';
-import { Outlet } from 'react-router';
+import React from "react";
+import NavBar from "../../Component/NavBar/NavBar";
+import { Outlet } from "react-router";
 
 const Home = () => {
-    return (
-        <div className='overflow-hidden'>
-            <NavBar></NavBar>
-            <Outlet></Outlet>
-        </div>
-    );
+  return (
+    <div>
+      <NavBar></NavBar>
+      <div className="overflow-hidden">
+        <Outlet></Outlet>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
