@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import mirulImg from "../../assets/portfolio-img.jpg";
+import mirulImg from "../../assets/portfolio-img2.jpg";
 import { FaFileDownload, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router";
