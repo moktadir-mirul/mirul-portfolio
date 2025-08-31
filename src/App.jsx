@@ -8,6 +8,8 @@ import Hero from './Component/Hero/Hero'
 import Projects from './Component/Projects/Projects'
 import Skills from './Component/Skills/Skills'
 import Footer from './Component/Footer/Footer'
+import StarBorder from './Component/ReactBits/StarBorder/StarBorder'
+
 
 
 function App() {
@@ -22,7 +24,16 @@ function App() {
         <AboutMe></AboutMe>
       </section>
       <section id='skills'>
-        <Skills></Skills>
+        {/* <Skills></Skills> */}
+        <StarBorder
+  as="button"
+  className="custom-class"
+  color="red"
+  speed="15s"
+  thickness={10}
+>
+  <Skills></Skills>
+</StarBorder>
       </section>
       <section >
         <Academic></Academic>
