@@ -9,6 +9,7 @@ import Projects from './Component/Projects/Projects'
 import Skills from './Component/Skills/Skills'
 import Footer from './Component/Footer/Footer'
 import StarBorder from './Component/ReactBits/StarBorder/StarBorder'
+import MyNav from './Component/MyNav/MyNav'
 
 
 
@@ -17,6 +18,9 @@ function App() {
 
   return (
     <div>
+      <nav className='bg-green-950'>
+        <MyNav></MyNav>
+      </nav>
       <section>
         <Hero></Hero>
       </section>

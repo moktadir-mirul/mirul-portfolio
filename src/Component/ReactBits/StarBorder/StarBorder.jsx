@@ -9,6 +9,7 @@ const StarBorder = ({
   children,
   ...rest
 }) => {
+    console.log(Component);
   return (
     <Component 
       className={`star-border-container ${className}`} 
